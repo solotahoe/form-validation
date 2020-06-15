@@ -10,9 +10,10 @@ body{
     min-height: 100vh;
     margin: 0;
     font-family:sans-serif;
+    background-image: url(back.jpg);
 }
 .container{
-    background-color: #fff;
+    background-color:rgba(255, 255, 255,0.6);
     border-radius: 5px;
     box-shadow: 0 2px 5px rgba(0,0,0,0.3);
     width: 400px;
@@ -25,6 +26,7 @@ body{
     border-bottom: 1px solid #f0f0f0;
     padding:20px 40px;
     text-align: center;
+    color:#A52A2A;
     
 }
 .header h2{
@@ -49,6 +51,8 @@ body{
     padding:10px;
     font-size: 14px;
     font-family: inherit;
+    border-radius: 5px;
+    outline: none;
 }
 .form-control.success input{
     border-color:#2ecc71;
@@ -59,6 +63,7 @@ body{
 
 }
 .form-control i{
+    font-size: 10px;
     position: absolute;
     top:40px;
     right: 10px;
