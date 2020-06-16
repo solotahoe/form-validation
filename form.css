@@ -19,12 +19,13 @@ body{
     width: 400px;
     max-width: 100%;
     overflow: hidden;
+    position: relative;
 
 }
 .header{
     background-color: #7f7f7f;
     border-bottom: 1px solid #f0f0f0;
-    padding:20px 40px;
+    padding:40px 40px;
     text-align: center;
     color:#A52A2A;
     
@@ -98,5 +99,14 @@ body{
     font-family: inherit;
     border-radius: 4px;
     font-weight: bold;
+    cursor: pointer;
+    outline: none;
 
+}
+img{
+    margin: 0;
+    padding: 0;
+    position: absolute;
+    top:80px;
+    left: 38%;
 }
