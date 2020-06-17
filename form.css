@@ -10,25 +10,31 @@ body{
     min-height: 100vh;
     margin: 0;
     font-family:sans-serif;
+    background-image: url(back.jpg);
 }
 .container{
-    background-color: #fff;
+    background-color:rgba(255, 255, 255,0.6);
     border-radius: 5px;
     box-shadow: 0 2px 5px rgba(0,0,0,0.3);
     width: 400px;
     max-width: 100%;
     overflow: hidden;
+    position: relative;
 
 }
 .header{
     background-color: #7f7f7f;
     border-bottom: 1px solid #f0f0f0;
-    padding:20px 40px;
+    padding:40px 40px;
     text-align: center;
     
 }
+
 .header h2{
     margin: 0;
+    background:linear-gradient(to top left, #f0f0f0, #8effcd);
+    -webkit-background-clip:text;
+	-webkit-text-fill-color:transparent; 
 }
 .form{
     padding:30px 40px;
@@ -49,6 +55,8 @@ body{
     padding:10px;
     font-size: 14px;
     font-family: inherit;
+    border-radius: 5px;
+    outline: none;
 }
 .form-control.success input{
     border-color:#2ecc71;
@@ -59,6 +67,7 @@ body{
 
 }
 .form-control i{
+    font-size: 10px;
     position: absolute;
     top:40px;
     right: 10px;
@@ -93,5 +102,14 @@ body{
     font-family: inherit;
     border-radius: 4px;
     font-weight: bold;
+    cursor: pointer;
+    outline: none;
 
+}
+img{
+    margin: 0;
+    padding: 0;
+    position: absolute;
+    top:80px;
+    left: 38%;
 }
