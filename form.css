@@ -113,3 +113,6 @@ img{
     top:80px;
     left: 38%;
 }
+.required{
+    color:rgb(255,0,0);
+}

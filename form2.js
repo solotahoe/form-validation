@@ -68,9 +68,9 @@ function checkInputs(){
         
         function congrats(){
    
-        if(small[0].textContent && small[1].textContent && small[2].textContent  && small[3].textContent==='completed'){
+        if(small[0].textContent==="completed" && small[1].textContent==="completed" && small[2].textContent==="completed"  && small[3].textContent==="completed"){
             
-            alert("DONE!!!! NOW SUBMIIT");
+            alert("DONE!!!! SUCCESSFULLY SUBMITED");
 
         }
     }
