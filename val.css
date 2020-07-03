@@ -1,0 +1,99 @@
+*{
+    margin: 0;
+    padding:0;
+}
+body{
+    font-family:verdana;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    background: #2e3b4c;
+}
+.container{
+    width: 400px;
+    box-sizing: border-box;
+    background-color:#fff;
+    border-radius: 10px;
+    overflow: hidden;
+    margin-top:10px;
+
+}
+header{
+    padding:20px 20px;
+    box-shadow: 0px 2px 2px #2e3b4c;
+    text-align: center;
+}
+.form-controls{
+    position: relative;
+    margin-bottom: 20px;
+    padding:5px;
+    margin: 10px;
+}
+.form{
+    padding:10px;
+}
+label{
+    display: inline-block;
+    padding:10px 0px;
+ }
+.form-controls input{
+    display: block;
+    width: 100%;
+    padding:5px;
+    font-size:12px;
+    outline: none;
+    line-height: 20PX;
+}
+.form-controls i{
+    position: absolute;;
+    top:50%;
+    right: 5px;
+    visibility: hidden;
+}
+.button{
+    display: block;
+    width: 100%;
+    background-color:#79443b;
+    padding: 10px 10px;
+    color:white;
+    border-radius: 5px;
+    outline: none;
+    font-size: 16px;
+    cursor: pointer;
+}
+small{
+    visibility: hidden;
+}
+.form-controls.success input {
+    border-color:#00FF7F;
+}
+.form-controls.success .fa-check-circle-o{
+    visibility: visible;
+    color:#00FF7F;
+}
+.form-controls.success small{
+    visibility: hidden;
+}
+
+.error i{
+    visibility: visible;
+    color:	#FF4500
+}
+.error small{
+    color:	#FF4500;
+    visibility:visible;
+}
+.form-controls.error input{
+    border-color:#FF4500;
+}
+.checkbox{
+    position: absolute;
+    display: block;
+    bottom:7px;
+    left: -170px;
+}
+.showPass{
+    margin-left: 20px;
+}
+

@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form validation</title>
+    <link rel="stylesheet" href="val.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="icon" href="icon.png" type="image/gif" sizes="16x16">
+</head>
+<body>
+  <div class="container">
+    <header>
+        <h2>Create an acccount</h2>
+    </header>
+    <form class="form" id="form">
+        <div class="form-controls" >
+            <label>Username</label>
+            <input type="text" placeholder="Username" id="username">
+            <i class="fa fa-check-circle-o" aria-hidden="true"></i>
+            <i class="fa fa-exclamation-circle" aria-hidden="true"></i>
+            <small>Error message</small>
+
+        </div>
+
+        <div class="form-controls">
+            <label>Email</label>
+            <input type="email" placeholder="Email" id="email">
+            <i class="fa fa-check-circle-o" aria-hidden="true"></i>
+            <i class="fa fa-exclamation-circle" aria-hidden="true"></i>
+            <small>Error message</small>
+
+        </div>
+
+        <div class="form-controls">
+            <label>Password</label>
+            <input type="password" placeholder="Password" id="Password">
+            <input type="checkbox" class="checkbox c1"> <span class="showPass">Show password</span>
+            <i class="fa fa-check-circle-o" aria-hidden="true"></i>
+            <i class="fa fa-exclamation-circle" aria-hidden="true"></i>
+            <small>Error message</small>
+
+        </div>
+
+        <div class="form-controls">
+            <label>Confirm password</label>
+            <input type="password" placeholder="Confirm password" id="password2">
+            <input type="checkbox" class="checkbox c2"> <span class="showPass">Show password</span>
+            <i class="fa fa-check-circle-o" aria-hidden="true"></i>
+            <i class="fa fa-exclamation-circle" aria-hidden="true"></i>
+            <small>Error message</small>
+
+        </div>
+        <button class="button" id="button">Submit</button>
+    </form>
+</div>
+    
+
+
+<script src="val.js"></script>
+</body>
+</html>
